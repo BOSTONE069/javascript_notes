@@ -16,6 +16,10 @@ for (let i = 0; i < countries.length; i++) {
 }
 console.log(newArr);
 
+/* This code is creating an array of numbers called `numbers` and initializing a variable called `sum`
+to 0. It then loops through each element in the `numbers` array using a `for` loop and adds each
+number to the `sum` variable. Finally, it logs the value of `sum` to the console, which will be the
+sum of all the numbers in the `numbers` array (in this case, 1 + 2 + 3 + 4 + 5 = 15). */
 const numbers = [1, 2, 3, 4, 5]
 let sum = 0
 for(let i = 0; i < numbers.length; i++){
