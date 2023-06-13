@@ -25,6 +25,7 @@ console.log("Number of web technologies:", webTechs.length);
 console.log("Countries:", countries);
 console.log("Number of countries:", countries.length);
 
+/*The code above creates three arrays: firstList, secondList, and thirdList. The first and second arrays contain three numbers each. The third array is created by concatenating the first and second arrays using the concat() method. The resulting third array contains all six numbers from the first two arrays. The third array is then logged to the console. */
 const firstList = [1,2,3]
 const secondList = [4,5,6]
 const thirdList = firstList.concat(secondList)
