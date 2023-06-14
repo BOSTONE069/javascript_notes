@@ -1,3 +1,7 @@
+/* This code is checking if the value of the variable `num` is greater than 0. If it is, it will print
+out a message saying that `num` is a positive number. If it is not greater than 0, it will print out
+a message saying that `num` is a negative number. In this case, `num` is equal to 3, so the output
+will be "3 is a positive number". */
 let num = 3
 if (num > 0) {
   console.log(`${num} is a positive number`)
